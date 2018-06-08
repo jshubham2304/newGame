@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_triangle"
+    tools:context=".activity.HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content">
+
+    <ImageButton
+        android:onClick="easylevel"
+        android:layout_margin="16dp"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:background="@drawable/seletor_botao6"
+        android:src="@drawable/child"/>
+    <ImageButton
+        android:layout_margin="16dp"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:background="@drawable/seletor_botao"
+        android:src="@drawable/icons8"/>
+    </LinearLayout>
+    <ImageButton
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_width="80dp"
+        android:layout_height="140dp"
+        android:background="@drawable/seletor_botao4"
+        android:src="@drawable/prof"/>
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_marginBottom="10dp"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:id="@+id/learn"
+            android:background="@drawable/seletor_botao2"
+            android:src="@drawable/book"/>
+        <ImageButton
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:background="@drawable/seletor_botao"
+            android:src="@drawable/settingimg"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
